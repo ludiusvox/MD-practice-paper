@@ -1,0 +1,121 @@
+ Process design and optimization of biodiesel production from Chlorella sp.microalgae Oil
+ 
+  K.Manesha,A.Dama,M.Valizadehderakhshan ,b
+   
+a Department of Chemical Engineering,Sahand University of Technology,P.O.Box 51335-1996,Tabriz,Iran
+b Joint School of Nanoscience and Nanoengineering (JSNN),North Carolina A&T State University,2907 E Gate City Blvd,Greensboro,NC 27401,USA
+  
+  Abstract
+   
+Keyword: Process Design,Biodiesel,Optimization,Chlorella sp.Oil,Aspen HYSYS software
+
+1.	Introduction
+  Nowadays,in the transportation industry worldwide,there is a high demand for alternative fuels.  However,new fuels should have characteristics of less toxic emissions,being renewable (redevelop able),and a mechanically efficient source of energy (high energy density),and not interfere with land development in respect to: water scarcity,population growth and farmland expansion.Biomass is one of the most appropriate sources of fuel production satisfying all constraints.
+  
+  Biomass has been used for eons as a source of energy,but only a few decades producing biodiesel and bioethanol.In 1929,Rudolph Diesel et al.used raw vegetable oil in a internal combustion engine for the first time and understood if this biofuel was burned in diesel motors,it will produce lower amounst of energy output,more pollution,and it would also cause coking (deposition of carbon) etc.,comparing with standard fuels .
+  Biodiesel primary advantage is it can be easily used in diesel motors without requisition of any mechanical or metallurgical engine modification,because of chemical similarities of combustion and outputs.Another argument in the favor of using biodiesel is it can also be simply produced from vegetable oils,animal fats,inedible oils and algae.
+  Nonetheless,energy sources such as animal fats,vegetable oils,greases,and inedible and edible oils are not a very pleasantly fragrant,reliable and beneficial fuel.   Most of the scientists and researchers claim that using these sources,despite incapability of sufficient fuel production,will cause land management problems including: farming land pollution,land deficiency,substantial increase in worldwide poverty,famine and deforestation.
+  Given these constraints,sea algae has been chosen as one of the best resources of clean fuel production because of its many attributes,as there is no competition in food consumption to drive up food prices,compatibility with salty water,wastelands and moors,
+and high growth rate.Algae can also adsorb pollutants such as carbon dioxide,nitrates and phosphates,this plant in production can have a significant impact on pollution decrease.
+  There are numerous plant species known as microalgae which are able to generate high amount of fat and this is far more than what is produced by land plants (table 1) .In a following schematic,the microalgae's cells convert carbon dioxide to biomass and this material can be utilized to manufacture biodiesel later.
+  
+  2.Theory
+  Due to high viscosity and low volatility of the oil obtained from microalgae,it cannot be used in current engines directly as a raw reagent.Therefore,with the assistant of existing methods of transesterification,this oil shall be transformed into a useful and operational fuel .
+  The discovery of the transesterification reaction dates to the year 1853.In this reaction,fat and alcohol interact with each other in the presence of alkaline catalyst which leads to glycerin and biodiesel production (Eq.1) .
+  
+            	             )Eq.1(
+   Many factors influence this reaction including the ratio of alcohol to oil,the type and mass fraction of catalyst,reaction time,the composition of feed,temperature and mixing.The most appropriate conditions for this reaction are 60? temperature and 1atm pressure.
+  Free fatty acid (FFA) existing in some fats reacts with alkaline catalyst and produces soap,whereas this reduces the trans-esterification reaction rate.The high amount of produced soap will cause some issues in the separation process in later processing steps.The processes in which the amount of FFA is more than standard value (1%wt),it should be removed from the feed stream before the transesterification reaction or transformed to the biodiesel by the esterification reaction (Eq.2).  At the temperature of 50? and atmospheric pressure,the most proper condition for this reaction is acquired,albeit it has been shown that altering the temperature range from 30? to 50? had no considerable effect on this reaction (Source?).
+
+                                               (Eq.2)
+  The composition of the Chlorella sp.oil existing in the algae varies by its type of production process,but regardless of variety,a specific composition of microalgae oil containing 9 triglycerides is taken into account (table 2) in order to produce 380 m3
+/d of biodiesel with standard concentration  .The proportion of FFA depends on the conditions of production and extraction of oil.
+  Simulating and Optimization uses the information concluded from the modeling of the reaction systems in order to acquire the best conditions including the most effective method of synthesis and the lowest possible expenditure of materials.  Optimization methods will help to reach the desired solution without the necessity of experimenting all possible situations.
+  Also in this study,the heat exchanger network (HEN) is designed to optimize the energy consumption.The HEN reduces the energy costs with heat transfer between cold and hot streams.Mathematical programs and the pinch technology are the most typical ways in the exchanger network designs.The mathematical program attempts to solve complicated equations using equation solvers,   whereas the pinch method is based on the fundamentals of thermodynamics and the Energy loss reduction.There are numerous tables and graphs for the pinch method which make this an efficient,simple,quick and graphical way in many fields.
+  Formerly,the pinch method was used for water,oxygen,hydrogen and equipment optimization but over time,but researchers found that optimizing these variables separately in one system had distinct and inappropriate effects on the final result.Therefore,multivariable optimizations,such as water and energy minimization by Salvolescu,optimization of energy and mechanical work by Bagejewicz,and oxygen and electrical energy optimization by Zhelev and Bhaw,were proposed.
+  
+  3.	Material and Methods
+  For simulating these two case studies presented in this paper are simulated in a novel way in order to deal with two different mass fraction of FFA existing in the Chlorella sp.oil in which it is considered that there is no FFA in the first process while there is 10% of it going along with the feed into the second process.
+  Triglycerides existing in microalgae oil will transform to biodiesel through a reaction in two consecutive reactors with the 97% conversion for each.While in the first process transesterification reaction occurs in both reactors,in the second one,esterification reaction happens in first reactor and transesterification reaction takes place in the second reactor.The properties and structure of biodiesel produced by these reactions are described in table 3.
+  In the databank of Aspen HYSYS V8.3,none of the oil and produced biodiesel compositions and properties exist and therefore,they must be defined in "Hypothetical" sections of this software.  According to the studies which has been done by Pokoo and Aikins (2010) and Sanchez E.et al.(2011),the best state equation for this process is NRTL,and SRK is the one employed for separators.
+  Although the alcohol used in these reactions can be methanol,ethanol,propanol,etc.,methanol has been used in this process because of its low costs,ease of purchasing and abundance.   In these reactions,while the stoichiometric ratio of methanol to triglyceride is 3:1,in order to achieve higher conversion output,the ratio of 6:1 is taken into account in the simulation design also.
+  The solubility of alcohol in oil is low and this reduces the rate of reaction,therefore,catalyst is used to improve this rate.Homogeneous alkaline materials are the best type of catalyst for the transesterification reactions   and among them,sodium hydroxide is mostly taken into consideration because of its low cost.In the esterification reactions,homogeneous acids are desirable catalysts and sulphuric acid is typically used.
+  In both simulated processes,hydrochloric acid is applied to narrow down alkaline catalyst (Eq.3).The flow of the hydrochloric acid is equal to the flow of sodium hydroxide entering to the separation section in which neutralization reaction occurs.It is assumed that the conversion of this reaction is 98%.
+                                                                
+                                                     (Eq.3)
+  All the inlet streams to the process comprising oil,methanol and catalyst are presumed to be in 25?,1atm and pure composition conditions.The operating conditions of all process equipment are 1atm pressure while the temperature is variable.
+  
+     3.1	Process design
+     3.1.1	The first process: without any free fatty acid
+  In this process assume there is no FFA.Initially,the first and second heat exchangers are utilized to regulate the temperature of inlets including NaOH,methanol and algae oil streams before entering to the first reactor (figure 2).The reactions are exothermic and therefore,a virtual heat exchanger is needed to the simulation as a jacket for the reactors to maintain the temperature constantly.The temperature of water used as coolant in all the heat exchangers is assumed 25?.
+  
+     3.1.2 Second process: with presence of free fatty acid
+  In this process,the amount of FFA existing in microalgae oil is supposed to be 10%.According to the simulation,the mainstream after going into the first reactor for the esterification reaction enters to the first decanter (decant-1) for separation (figure 4)
+  Next,glycerin and alcohol should be separated from other materials in the product stream of the first reactor whereas the least proportion of triglyceride and biodiesel remains.In a situation where,all products move into the second reactor,the working volume,costs of pumping and energy consumption will increase consequently.
+  
+  4.	Result and Discussion 
+     4.1 	The first process
+  According to the figure 1-a and 1-b,the LLDe-1 stream contained less amount of glycerin and methanol,and more amount of triglyceride as the temperature of separator 1 was lower than 70?.The lowest normal temperature commonly used in many academic industrial process designs is 25?,and so this temperature was used to the streams of separators in the simulation.
+  Then,this separation resulted in breakdown of methanol and triglyceride with the molar fraction of 0.36 and 0.03 through the LLDe-1 stream and methanol and glycerin with the molar fraction of 0.82 and 0.17 via HLDe-1 stream.Next,the LLDe-1 stream reached to the desired temperature and pressure went into the second reactor.Thereafter,the product stream of this reactor which contained high amount of biodiesel,methanol and glycerin entered the first flash tank for further separation.
+  The effect of the temperature on the flow of glycerin and methanol stream (LFT-1) is illustrated in the figure 1-c.It is apparent from the figure that the flow rate of these materials reached to the minimal as the temperature went up.But the molar flow reduction of these materials is not adequate and an integrated temperature should also be chosen to increase the flow rate and the mass fraction of biodiesel.A glance at the figure 1-d,indicates that the best temperature for this tank is 330?  in which the mass fraction of biodiesel reaches to 99.38% and its flow rate devotes 77% of the total biodiesel going into the flash tank 1 to itself.Under these conditions,high amount of excess methanol would be in the VFT-1 stream.
+  The LFT-1 stream goes into the separator 2 to increase biodiesel purity and remove catalyst (Eq.3).In this separator,in order to achieve better purity,the conditions can be defined as not only separation of sodium hydroxide and sediment sodium chloride but also elimination of proportion of byproducts and other materials in it.The figure 1-e depicts the changes of biodiesel mass fraction and molar flow in the FAME stream.As can be seen from this figure,the outlet molar flow of biodiesel remained stable at its maximum around 50kgmol
+/h between 0 and 320? while its mass fraction reached to 99.65% twice,in the temperatures of 100? and 300?.Because produced biodiesel will finally go into the tanks and it should have proper temperature,here is better to apply a segment which alleviates the temperature to 100?.
+  The outlet vapor flow of the first flash tank and the outlet liquid stream of first separator,which is named HLDe-1,go into the second flash tank in order to separate methanol and recycle it to the beginning of the process.The most appropriate temperature for the 2nd flash tank deduced from the figure 1-f is 102? in which the mass fraction of methanol reaches to 99.98%.The LFT-2 stream also contains high proportion of high concentrated glycerin which can be transferred to downstream industries for cosmetic and drug production.
+  However,instead of all the decanters and flash tanks employed in this process,distillation towers can be used which would outstandingly increase the fixed and variable costs consisting costs of controllers,condensers and energy consumption.To illustrate,the first flash tank requires 4096kW of hot utility while a distillation tower with 5 trays needs 5542kW and 894kW of hot and cold utility,respectively.
+  The scheme of this process is indicated in figure 2 and the data about mainstreams is given in the table 4 and 5.The cold and hot utility required for the whole of this process were 14583.6kW and 8577.5kW respectively.
+         
+     4.2 	Second process 
+     In this process through separation,while high proportion of water and sulphuric acid are separated,making the most possible amount of biodiesel,methanol and triglyceride remain in the mainstream (figure 3-a and 3-b).
+   To compensate alcohol's shortage in the second reactor,a recovery flow containing methanol (Methanol-2) is applied.The flow of this stream is regulated in a way that in spite of existing methanol recycle stream (H-7) and outlet stream of the first separator (H-4),the molar ratio of alcohol to triglyceride remains 6:1 in the second reactor.
+  The outlet stream of the second reactor goes into the second decanter (Decant-2) to neutralize the catalyst (figure 3-c),and then enters to the distillation tower to increase the produced biodiesel purity.This distillation tower has 6 trays and the ratio of the recycle stream is 0.5.The VD-1 and VD-2 streams are also going into the third decanter (Decant-3) and then recycle to the beginning of the process to enhance methanol purity (figure 3-d).
+  The scheme of this process is shown in the figure 4 and the table 6,7 and 8 represent the information about this section of process.The required cold and hot utility for this unit are 15088.6kW and 15041kW,respectively.
+     4.3 Energy consumption optimization
+     4.3.1 The first process
+     In order to use the pinch method,the information about the source and demand streams presented in the first process are indicated in table 9.In this table,P shows the flow phase change and HR-1 and HR-2 which shall be quenched to 25? are the cooling water of the first and second reactors' jackets,respectively.Without any phase changes the heat capacity of streams,CP,will be calculated from the equation 4 and when phase changes exist,it will be calculated by the equation 5.
+CP = (CP in + CP out) / 2 * m ?   
+							             (Eq.4)
+CP = Q / ?T               							                        (Eq.5)
+  In these equations, CP in  and  CP out  are the specific heat capacity of exchanger's inlet and outlet streams,respectively.The heat exchange flow is assigned with the symbol Q for or in other words,Q is the heat load of the exchanger and ?T is temperature difference between the inlet and outlet streams of the exchanger.
+  The equation 6 and 7 are used to calculate the interval temperatures,and for interval enthalpy,the equation 8 is applied.In these correlations,??T?_min is the minimum approach temperature which is supposed to be 10?.
+Hot Interval Temp.= Hot Temp.-  1
+/2 ?Tmin                                                               (Eq.6)
+Cold Interval Temp.= Cold Temp.+  1
+/2 ?Tmin                                                            (Eq.7)
+  
+ Cold Interval Temp.= Cold Temp.+  1
+/2 ?Tmin                                                           (Eq.8)
+  With determining interval temperature and enthalpy,the required cold and hot utility for the network can be calculated.According to the table 10,the amount of the cold and hot utility are 9437.9kW and 3431.8kW,respectively.The pinch point is in 76? and therefore,the cold pinch temperature is 71? and the hot pinch temperature is 81?.
+  By calculating the pinch cold and hot temperature and determination of this method principles,the final network is designed as shown in figure 5.The principles and constraints of the pinch are as follows:
+i.	Commencing the design from the cold and hot temperatures of the pinch,
+ii.	 If the number of cold streams above the pinch were fewer than the number of hot streams below the pinch,and also vice versa (which means if the number of hot streams below the pinch were fewer than that of the cold streams),stream splitting shall be used,
+iii.	In order to achieve better heat transfer,again stream splitting shall be applied,
+iv.	Using hot utility above and cold utility below the pinch if required,
+v.	No heat transfer from the pinch,
+vi.	The temperature difference cannot be reduced to the lower amount of the ?T_min in all parts of the network.
+  
+  By exerting this network in the process,the required cold and hot energy is decreased to 9438.9kW and 3437.1kW,respectively (table 10).
+  
+     4.3.2 Second Process
+  The figure 6 depicts the exchanger network of the second process.The source and demand streams of the second process and all mentioned assumptions used in the first exchanger network are applied here again (Table11).By putting this network on the process,the required cold energy is reduced to 7696.2kW and the needed hot energy is dropped to 3561.4kW (table 12).
+  
+  5.Conclusion
+  The results of the design demonstrate that the required cold and hot energy for the first process were 14583.6kw and 8577.5kw and in the second process were 15088.6kw and 15041kw and,respectively.The main reason for this increase in the second process was using a distillation tower.The amount of cold energy assigned to the condenser in the distillation tower was 767.7kW and 4847kW of hot energy was applied for the reboiler.
+  The optimization has a great influence on minimization of the energy and material consumption so that the designed exchanger network was able to reduce the cold and hot energy of the first process by 35.28% and 59.93% and in the second process,this lead to a 43.9% and 44.1% drop in these energies of reaction.The amount of energy consumed in the first process decreased by 44.41% and this percentage in the second process was 44%.Using recycle streams was also caused 80.52% methanol consumption reduction in the first process and 81.64% decrease in the second process.
+  Glycerin which is unimportant byproducts of the transesterification reaction was produced by 7917.5kg
+/h in the first process and 5686.5kg
+/h in the second process.In order to increase purity of this material and also efficiency of the process,this extra product can be transferred to the downstream industries.Sale and use of the produced glycerin can be significantly effective in the feasibility of the process,economically and financially.
+  
+  
+  
+  
+  
+  References
+
+      Corresponding authors e-mail addresses: 
+  
+   
+   
+   
+   
+  1
+  
